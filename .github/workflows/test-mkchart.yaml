@@ -17,6 +17,8 @@ jobs:
                       
         - name: make PDF and PNG charts
           run: |
+            rm -rf out/
+            mkdir -p out
             sudo apt install -y python3-pil
             python3 mkchart.py
 
