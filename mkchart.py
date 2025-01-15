@@ -13,8 +13,8 @@ import json
 with open('kangxi.json') as f:
     data = json.loads(f.read().strip())
 
-outfilepdf = 'tests/test-kangxi-chart-prototype.pdf'
-outfilepng = 'tests/test-kangxi-chart-prototype.png'
+outfilepdf = 'out/test-kangxi-chart-prototype.pdf'
+outfilepng = 'out/test-kangxi-chart-prototype.png'
 dpi = 300
 
 # in inches
