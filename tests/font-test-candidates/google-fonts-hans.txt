@@ -1,0 +1,42 @@
+BIZ UDGothic
+BIZ UDMincho
+BIZ UDPGothic
+BIZ UDPMincho
+IBM Plex Sans JP
+Kosugi
+Kosugi Maru
+Liu Jian Mao Cao
+Long Cang
+M PLUS Rounded 1c
+Ma Shan Zheng
+Mochiy Pop One
+Mochiy Pop P One
+Murecho
+Noto Sans Simplified Chinese
+Noto Serif Simplified Chinese
+Reggae One
+RocknRoll One
+Sawarabi Gothic
+Sawarabi Mincho
+Shippori Antique
+Shippori Antique B1
+Shippori Mincho
+Shippori Mincho B1
+Stick
+Train One
+Yomogi
+Yuji Boku
+Yuji Mai
+Yuji Syuku
+Yusei Magic
+ZCOOL KuaiLe
+ZCOOL QingKe HuangYou
+ZCOOL XiaoWei
+Zen Antique
+Zen Antique Soft
+Zen Kaku Gothic Antique
+Zen Kaku Gothic New
+Zen Kurenaido
+Zen Maru Gothic
+Zen Old Mincho
+Zhi Mang Xing

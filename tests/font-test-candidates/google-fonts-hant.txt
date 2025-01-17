@@ -1,0 +1,58 @@
+BIZ UDGothic
+BIZ UDMincho
+BIZ UDPGothic
+BIZ UDPMincho
+Cactus Classical Serif
+Chocolate Classical Sans
+Dela Gothic One
+DotGothic16
+Hachi Maru Pop
+Hina Mincho
+IBM Plex Sans JP
+Kaisei Decol
+Kaisei HarunoUmi
+Kaisei Opti
+Kaisei Tokumin
+Kiwi Maru
+Klee One
+Kosugi
+Kosugi Maru
+LXGW WenKai Mono TC
+LXGW WenKai TC
+M PLUS 1
+M PLUS 1 Code
+M PLUS 1p
+M PLUS 2
+M PLUS Rounded 1c
+Mochiy Pop One
+Mochiy Pop P One
+Murecho
+New Tegomin
+Noto Sans Hong Kong
+Noto Sans Traditional Chinese
+Noto Serif Hong Kong
+Noto Serif Traditional Chinese
+Potta One
+Rampart One
+Reggae One
+RocknRoll One
+Sawarabi Gothic
+Sawarabi Mincho
+Shippori Antique
+Shippori Antique B1
+Shippori Mincho
+Shippori Mincho B1
+Stick
+Train One
+Yomogi
+Yuji Boku
+Yuji Mai
+Yuji Syuku
+Yusei Magic
+Zen Antique
+Zen Antique Soft
+Zen Kaku Gothic Antique
+Zen Kaku Gothic New
+Zen Kurenaido
+Zen Maru Gothic
+Zen Old Mincho
