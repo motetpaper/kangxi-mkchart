@@ -9,12 +9,21 @@
 from PIL import Image, ImageDraw, ImageFont
 from motetkangxi import *
 import json
+import yaml
+
+with open('chart.yaml') as f:
+    prefs = yaml.safe_load(f)
+
+print(prefs)
+
+slug = prefs['chart']['slug']
+
 
 with open('kangxi.json') as f:
     data = json.loads(f.read().strip())
 
-outfilepdf = 'out/test-kangxi-chart-prototype.pdf'
-outfilepng = 'out/test-kangxi-chart-prototype.png'
+outfilepdf = f'out/{slug}.pdf'
+outfilepng = f'out/{slug}.png'
 dpi = 300
 
 # in inches
@@ -52,9 +61,6 @@ with Image.new('RGB',(w,h),wht) as im:
                 k = list(item.keys())
                 v = list(item.values())
 
-                #print(k)
-                #print(v)
-
                 if 'header' in k:
                     g = test_hdr(str(v[0]), v[1])
                 elif 'radical' in k:
@@ -67,6 +73,17 @@ with Image.new('RGB',(w,h),wht) as im:
 
     print(coords)
     xy = (coords[0]+bx+dx,coords[1],xf-bx-500+dx+dx,coords[1]+by)
-    d.rectangle(xy,fill=(204,204,204),outline=(204,204,204),width=4)
+    d.rectangle(xy,fill=(255,255,255),outline=(0,0,0),width=4)
+
+    bnfont=ImageFont.truetype(f'./fonts/{chartPinyinFont}',size=85)
+    btfont=ImageFont.truetype(f'./fonts/{chartPinyinFont}',size=50)
+    bufont=ImageFont.truetype(f'./fonts/{chartPinyinFont}',size=36)
+
+    brand_name = prefs['chart']['branding']['title']
+    brand_tagline = prefs['chart']['branding']['tagline']
+    brand_url = prefs['chart']['branding']['learnmore']
+    d.text((xy[0]+dx,xy[1]),brand_name,fill=blk,font=bnfont)
+    d.text((xy[0]+dx,xy[1]+dx+100),brand_tagline,fill=blk,font=btfont)
+    d.text((xy[0]+dx,xy[1]+dx+175),brand_url,fill=blk,font=bufont)
     im.save(outfilepdf)
     im.save(outfilepng)
