@@ -1,0 +1,11 @@
+chart:
+  slug: "kangxichart"
+  branding:
+    title: "214 Kangxi Radicals Chart with Hanyu Pinyin"
+    tagline: "This chart was generated on GitHub with software from MOTET PAPER."
+    learnmore: "Learn more: https://motetpaper.github.io/"
+  fonts:
+    hanzi: "NotoSerifTC-Regular.ttf"
+    pinyin: "GentiumPlus-Bold.ttf"
+    number: "GentiumPlus-Bold.ttf"
+    
